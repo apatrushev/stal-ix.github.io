@@ -79,8 +79,7 @@ cd /mnt/ix
 Fetch **IX** package manager, will be used later, from ix user before reboot and by root user after reboot:
 
 ```shell
-# we do not want to change our CWD
-(cd home/ix; git clone https://github.com/stal-ix/ix.git)
+git clone https://github.com/stal-ix/ix.git home/ix/ix
 ```
 
 Some quirks:
